@@ -1,0 +1,40 @@
+html{
+  margin:0
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.main-dash{
+  display: flex;
+  flex-direction: row;
+  min-height:92vh;
+  border-top: 1px solid silver;
+  opacity: 0.5;
+
+
+}
+
+// const tokenUtils = () => {
+  //   const existingToken = localStorage.getItem('Token');
+  //   setToken(existingToken)
+  //   if (!token) {
+  //     authInstance.post(generateToken, {
+  //       headers: { 'Content-Type': 'application/json' },
+  //     }).then((response) => {
+  //       console.log(response.data)
+  //       const accessToken = response.data.response.access_token;
+  //       localStorage.setItem('Token', accessToken);
+  //       setToken(accessToken); // Update the state with the new token
+  //     })
+  //   }
+  //   return existingToken;
+  // };
+  
+  useEffect(() => {
+    // Call the tokenUtils function to generate or retrieve the token
+    tokenUtils()
+  }, []);

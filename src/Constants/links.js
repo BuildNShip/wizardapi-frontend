@@ -1,0 +1,10 @@
+export const authBaseUrl = "http://localhost:8000";
+export const wizardBackendbaseUrl = "http://localhost:8001";
+export const urlPrefix = "/wizardapi/v1"
+export const generateToken="/api/auth/generate-token"
+export const listResponseCodes="/app-data/response-code/list"
+export const listCategories="/category/list"
+export const addCategory="/category/update"
+export const addUrl="/api-data/url/update"
+export const listUrls="/api-data/url/list"
+export const viewUrl="/api-data/url/view"

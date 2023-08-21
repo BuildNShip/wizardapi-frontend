@@ -1,0 +1,11 @@
+.navbar{
+    min-height: 6vh;
+  
+    
+}
+.navbar h2{
+    color:white;
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
